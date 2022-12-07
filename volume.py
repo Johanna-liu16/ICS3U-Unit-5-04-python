@@ -7,7 +7,7 @@
 import math
 
 
-def calculate_volume(radius: int, height: int) -> str:
+def calculate_volume(radius: int, height: int) -> float:
     # calculate volume
     volume = math.pi * radius**2 * height
     return volume
